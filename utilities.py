@@ -2,7 +2,8 @@
 import sys
 import csv
 
-# this is a function that takes in a srt that promps the user and a bool value which determens whether or not the answer can be negative and returns a float.
+
+# this is a function that takes in a str that prompts the user and a bool value which determines whether or not the answer can be negative and returns a float.
 def get_user_input(input_prompt, can_be_negative):
 
     # this is a stop sign (programing humor)
@@ -10,19 +11,20 @@ def get_user_input(input_prompt, can_be_negative):
         # this is also a stop sign (more programing humor)
         try:
             # stores the user input in a variable
-            user_input = input(input_prompt)
+            user_input = float(input(input_prompt))
 
             # checks if the user input is a valid number and if it can be negative or not
-            if not can_be_negative and float(user_input) < 0:
+            if not can_be_negative and user_input < 0:
                 print("please enter a non negative number.")
                 continue
 
             # even more stop sign
-            return float(user_input)
+            return user_input
         
         except ValueError:
-                    print("please enter a valid number.")
-                    continue
+            print("please enter a valid number.")
+            continue
+
 
 # this is a function that takes in a string that prompts the user and returns a string.
 def ask_user_str(input_prompt):
