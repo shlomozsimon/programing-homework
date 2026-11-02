@@ -1,4 +1,3 @@
-
 # import the necessary functions from utilities
 from utilities import ask_user_str, get_user_choice, get_csv_file
 
