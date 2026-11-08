@@ -5,6 +5,16 @@ import csv
 
 # this is a function that takes in a str that prompts the user and a bool value which determines whether or not the answer can be negative and returns a float.
 def get_user_input(input_prompt, can_be_negative):
+    """
+    Gets and validates a numeric input from the user.
+
+    Args:
+        input_prompt (str): The prompt displayed to the user.
+        can_be_negative (bool): Determines whether negative numbers are allowed.
+
+    Returns:
+        float: The validated numeric input.
+    """
 
     # this is a stop sign (programing humor)
     while True:
@@ -28,6 +38,15 @@ def get_user_input(input_prompt, can_be_negative):
 
 # this is a function that takes in a string that prompts the user and returns a string.
 def ask_user_str(input_prompt):
+    """
+    Prompts the user for a non-empty string.
+
+    Args:
+        input_prompt (str): The prompt displayed to the user.
+
+    Returns:
+        str: The validated user input.
+    """
 
     while True:
 
@@ -40,8 +59,19 @@ def ask_user_str(input_prompt):
 
         return user_input
     
+
 # this is a function that takes in a prompt and a list of valid choices and returns the user's choice. (important note: the user's choice is converted to lowercase before being returned and valid_choices must also be in lowercase)
 def get_user_choice(input_prompt, valid_choices):
+    """
+    Prompts the user to select one of the valid choices.
+
+    Args:
+        input_prompt (str): The prompt displayed to the user.
+        valid_choices (list): A list of valid choices in lowercase.
+
+    Returns:
+        str: The user's selected choice converted to lowercase.
+    """
 
     while True:
 
@@ -55,8 +85,21 @@ def get_user_choice(input_prompt, valid_choices):
         # tells the user if their choice is invalid
         print("ERROR: Please enter one of the following choices: {}".format(", ".join(valid_choices)))
 
+
 # this is a function that takes in a string that prompts the user and returns a file object
 def get_file(file_prompt):
+    """
+    Prompts the user for a file name and attempts to open the file.
+
+    Args:
+        file_prompt (str): The prompt displayed to the user.
+
+    Returns:
+        file object: The opened file, ready for reading.
+
+    Raises:
+        SystemExit: If the file cannot be found or permission is denied.
+    """
 
     file_name = input(file_prompt)
 
@@ -79,9 +122,20 @@ def get_file(file_prompt):
         sys.exit(1)
 
 
-
 # this is a function that takes in a file name and returns a list of dictionaries from a csv file
 def get_csv_file(file_name):
+    """
+    Opens a CSV file and reads its records into a list of dictionaries.
+
+    Args:
+        file_name (str): The name or path of the CSV file.
+
+    Returns:
+        list: A list of dictionaries, with each dictionary representing one CSV record.
+
+    Raises:
+        SystemExit: If the file cannot be found or permission is denied.
+    """
 
     # try to open and read the csv file
     try:
