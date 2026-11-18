@@ -1,0 +1,60 @@
+Employee Name: John Dillinger
+   ----- Gross Pay Calculation ------
+   Hours Worked:   41.00
+       Pay Rate: $   19.25 per hour
+       Base Pay: $  770.00
+   Overtime Pay: $   28.88
+      Gross Pay: $  798.88
+
+-------------------- Cut Here -------------------------------
+
+Employee Name: John Wilkes Booth
+   ----- Gross Pay Calculation ------
+   Hours Worked:   35.00
+       Pay Rate: $   21.50 per hour
+       Base Pay: $  752.50
+   Overtime Pay: $    0.00
+      Gross Pay: $  752.50
+
+-------------------- Cut Here -------------------------------
+
+Employee Name: Alphonse Capone
+   ----- Gross Pay Calculation ------
+   Hours Worked:    4.00
+       Pay Rate: $  500.00 per hour
+       Base Pay: $ 2000.00
+   Overtime Pay: $    0.00
+      Gross Pay: $ 2000.00
+
+-------------------- Cut Here -------------------------------
+
+Employee Name: Carlo Gambino
+   ----- Gross Pay Calculation ------
+   Hours Worked:   50.00
+       Pay Rate: $   42.50 per hour
+       Base Pay: $ 1700.00
+   Overtime Pay: $  637.50
+      Gross Pay: $ 2337.50
+
+-------------------- Cut Here -------------------------------
+
+Employee Name: Martha Stewart
+   ----- Gross Pay Calculation ------
+   Hours Worked:   20.50
+       Pay Rate: $   35.50 per hour
+       Base Pay: $  727.75
+   Overtime Pay: $    0.00
+      Gross Pay: $  727.75
+
+-------------------- Cut Here -------------------------------
+
+Employee Name: Willie Sutton
+   ----- Gross Pay Calculation ------
+   Hours Worked:   55.00
+       Pay Rate: $    3.75 per hour
+       Base Pay: $  150.00
+   Overtime Pay: $   84.38
+      Gross Pay: $  234.38
+
+-------------------- Cut Here -------------------------------
+

@@ -1,0 +1,7 @@
+#name,hours,rate
+John Dillinger,41,19.25
+John Wilkes Booth,35,21.50
+Alphonse Capone,4,500.0
+Carlo Gambino,50,42.50
+Martha Stewart,20.5,35.5
+Willie Sutton,55,3.75
